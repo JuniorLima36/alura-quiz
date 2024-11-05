@@ -1,0 +1,20 @@
+.component {
+  display: block;
+  background-color: var(--accent);
+  color: var(--primary);
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: opacity .2s;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.input {
+  display: none;
+}
+
+.input:checked ~ .component {
+  background-color: var(--primary-100);
+  opacity: 1;
+  font-weight: bold;
+} 

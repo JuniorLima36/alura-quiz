@@ -1,0 +1,88 @@
+.screen {
+  background-size: cover;
+  background-position: center center;
+  padding-top: 40px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+@media (min-width: 600px) {
+  .screen {
+    background-image: url("../public/image/bg-cs.jpeg");
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.container {}
+
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 350px;
+  }
+}
+
+.alternativeContainer {
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background-color: var(--primary-100);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.alternativeContainer:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.confirmButton {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.confirmButton:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+}
+
+.confirmButton:active {
+  transform: translateY(1px);
+}
+
+.feedbackIcon {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.errorIcon {
+  color: #e74c3c;
+  animation: shake 0.3s;
+}
+
+.successIcon {
+  color: #2ecc71;
+  animation: popIn 0.3s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}

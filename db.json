@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "image": "image/nuke.avif",
+      "title": "Qual é o nome da primeira versão do Counter-Strike?",
+      "description": "Considere as versões iniciais antes da franquia se expandir.",
+      "alternatives": [
+        "Counter-Strike 1.6",
+        "Counter-Strike Source",
+        "Counter-Strike Beta",
+        "Counter-Strike: Global Offensive"
+      ],
+      "answer": "2"
+    },
+    {
+      "image": "image/anubis.jpg",
+      "title": "Qual arma é mais famosa por seu poder de dano e custo-benefício?",
+      "description": "Considere as armas mais usadas no competitivo.",
+      "alternatives": [
+        "M4A1-S",
+        "AWP",
+        "AK-47",
+        "Desert Eagle"
+      ],
+      "answer": "2"
+    },
+    {
+      "image": "image/inferno.jpeg",
+      "title": "Qual equipe venceu o primeiro Major de CS:GO?",
+      "description": "O Major é um dos torneios mais importantes de Counter-Strike: Global Offensive.",
+      "alternatives": [
+        "Ninjas in Pyjamas",
+        "Astralis",
+        "Fnatic",
+        "Virtus.pro"
+      ],
+      "answer": "0"
+    },
+    {
+      "image": "image/dust2.jpeg",
+      "title": "Qual mapa é o mais icônico e frequentemente jogado em Counter-Strike?",
+      "description": "Considere tanto jogadores casuais quanto profissionais.",
+      "alternatives": [
+        "Inferno",
+        "Nuke",
+        "Mirage",
+        "Dust II"
+      ],
+      "answer": "3"
+    },
+    {
+      "image": "image/nuke-b.jpg",
+      "title": "Qual foi o nome da primeira operação lançada em CS:GO?",
+      "description": "Operações são eventos especiais que adicionam conteúdo ao jogo.",
+      "alternatives": [
+        "Operation Bloodhound",
+        "Operation Shattered Web",
+        "Operation Hydra",
+        "Operation Payback"
+      ],
+      "answer": "3"
+    },
+    {
+      "image": "image/overpass.jpeg",
+      "title": "Qual é o nome da faca mais rara e cobiçada em CS:GO?",
+      "description": "Essa faca é conhecida por seu alto valor no mercado.",
+      "alternatives": [
+        "Karambit Fade",
+        "Butterfly Knife",
+        "M9 Bayonet Doppler",
+        "Gut Knife"
+      ],
+      "answer": "0"
+    },
+    {
+      "image": "image/anubis-rato.png",
+      "title": "Quantos tipos de granadas existem no CS:GO?",
+      "description": "Considere todas as granadas utilizáveis no jogo.",
+      "alternatives": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "2"
+    },
+    {
+      "image": "image/squad.png",
+      "title": "Qual jogador é considerado um dos melhores da história do CS:GO?",
+      "description": "Este jogador tem múltiplos prêmios de MVP em Majors.",
+      "alternatives": [
+        "s1mple",
+        "device",
+        "coldzera",
+        "ZywOo"
+      ],
+      "answer": "0"
+    },
+    {
+      "image": "image/escuro-alto.png",
+      "title": "Quantos jogadores compõem uma equipe em partidas competitivas de CS:GO?",
+      "description": "Considere as regras dos torneios oficiais.",
+      "alternatives": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "1"
+    },
+    {
+      "image": "image/overpass-a.jpeg",
+      "title": "Qual é o nome do sistema de skins que gerou um mercado ativo no CS:GO?",
+      "description": "Esse sistema é conhecido por seu impacto na economia do jogo.",
+      "alternatives": [
+        "Steam Market",
+        "Cases e chaves",
+        "Loot Boxes",
+        "Sistema de crafting"
+      ],
+      "answer": "1"
+    }
+  ]
+}
